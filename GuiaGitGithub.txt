@@ -1,0 +1,19 @@
+En proyectos con otros desarrolladores.
+ 
+Para empezar a usar Git y GitHub, sigue estos pasos:
+ 
+1. Crea una carpeta local: Crea una carpeta en tu equipo donde guardarás tus archivos. Esta carpeta será tu repositorio de Git local.
+ 
+2. Inicializa el repositorio de Git: Abre una ventana de Git Bash o CMD, navega a la carpeta que acabas de crear y ejecuta el comando `git init`. Esto creará un nuevo repositorio de Git local en la carpeta.
+ 
+3. Agrega archivos al repositorio: Copia los archivos que deseas realizar un seguimiento en la carpeta del repositorio de Git local. Luego, usa el comando `git add` para agregar los archivos al área de preparación y el comando `git commit` para guardar una versión de los archivos en el repositorio.
+ 
+4. Crea una cuenta en GitHub: Si aún no tienes una cuenta en GitHub, ve a https://github.com y crea una cuenta gratuita.
+ 
+5. Crea un repositorio remoto en GitHub: Inicia sesión en tu cuenta de GitHub y haz clic en el botón `New repository` para crear un nuevo repositorio remoto. Dale un nombre a tu repositorio y haz clic en el botón `Create repository`.
+ 
+6. Configura el repositorio remoto en tu repositorio de Git local: Abre una ventana de Git Bash o CMD, navega a la carpeta del repositorio de Git local y ejecuta el comando `git remote add origin URL`, donde `URL` es la URL de tu repositorio remoto en GitHub.
+ 
+7. Sube cambios a tu repositorio remoto: Usa el comando `git push` para subir los cambios desde tu repositorio de Git local a tu repositorio remoto en GitHub. El comando `git remote` te permite administrar tus repositorios remotos. Puedes usarlo para agregar, eliminar o cambiar la URL de tus repositorios remotos. Un repositorio remoto es una copia de tu repositorio de Git local alojada en un servidor en línea como GitHub. Esto te permite compartir tu trabajo con otros y colaborar en proyectos. ```
+
+Unete para formar un manual de consulta y que sea a un solo click de referencia aplicable.
