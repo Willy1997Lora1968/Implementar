@@ -1,0 +1,11 @@
+Para realizar cambios en el archivo del repositorio local y subirlos al repositorio remoto, puedes seguir los siguientes pasos:
+
+1. **Realiza cambios en el archivo**: Abre el archivo en tu equipo local y realiza los cambios que desees.
+
+2. **Agrega el archivo al área de preparación**: Una vez que hayas realizado los cambios en el archivo, ejecuta el comando `git add [nombre_del_archivo]` en la línea de comandos para agregar el archivo al área de preparación.
+
+3. **Haz un commit**: Después de agregar el archivo al área de preparación, ejecuta el comando `git commit -m "Descripción del commit"` en la línea de comandos para guardar una versión de los cambios en el repositorio local.
+
+4. **Sube los cambios al repositorio remoto**: Finalmente, ejecuta el comando `git push` en la línea de comandos para subir los cambios desde tu repositorio local al repositorio remoto.
+
+Espero que esta información te sea útil para entender cómo realizar cambios en un archivo del repositorio local y subirlos al repositorio remoto. 
