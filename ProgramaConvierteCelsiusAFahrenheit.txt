@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class CelsiusAFahrenheit {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        // Pedir la temperatura en Celsius
+        System.out.print("Ingrese la temperatura en Celsius: ");
+        double celsius = scanner.nextDouble();
+        // Convertir a Fahrenheit usando la fórmula F = 32 + (9 * C / 5)
+        double fahrenheit = 32 + (9 * celsius / 5);
+        // Mostrar el resultado
+        System.out.println(celsius + "°C es equivalente a " + fahrenheit + "°F");
+    }
+}

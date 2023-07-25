@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class ConvertirCaso {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        // Pedir la frase
+        System.out.print("Ingrese una frase: ");
+        String frase = scanner.nextLine();
+        // Convertir a mayúsculas
+        String mayusculas = frase.toUpperCase();
+        // Convertir a minúsculas
+        String minusculas = frase.toLowerCase();
+        // Mostrar los resultados
+        System.out.println("Mayúsculas: " + mayusculas);
+        System.out.println("Minúsculas: " + minusculas);
+    }
+}

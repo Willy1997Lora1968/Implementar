@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class SumaDeDosEnteros {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        // Pedir el primer entero
+        System.out.print("Ingrese el primer entero: ");
+        int primero = scanner.nextInt();
+        // Pedir el segundo entero
+        System.out.print("Ingrese el segundo entero: ");
+        int segundo = scanner.nextInt();
+        // Calcular la suma
+        int suma = primero + segundo;
+        // Mostrar el resultado
+        System.out.println("La suma de " + primero + " y " + segundo + " es " + suma);
+    }
+}

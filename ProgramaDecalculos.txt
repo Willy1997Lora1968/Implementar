@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class CalcularValores {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        // Pedir el entero
+        System.out.print("Ingrese un entero: ");
+        int numero = scanner.nextInt();
+        // Calcular el doble valor
+        int dobleValor = numero * 2;
+        // Calcular el triple valor
+        int tripleValor = numero * 3;
+        // Calcular la raíz cuadrada usando la función Math.sqrt()
+        double raizCuadrada = Math.sqrt(numero);
+        // Mostrar los resultados
+        System.out.println("Doble: " + dobleValor);
+        System.out.println("Triple: " + tripleValor);
+        System.out.println("Raíz cuadrada: " + raizCuadrada);
+    }
+}
